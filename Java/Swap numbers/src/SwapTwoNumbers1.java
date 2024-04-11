@@ -7,9 +7,9 @@ public class SwapTwoNumbers1 {
 
         System.out.println("Before swapping: a = "+a+ ", b = "+b);
 
-        temp = a;
-        a = b;
-        b = temp;
+        temp = a;   // temp = 10  
+        a = b;      // a = 20     
+        b = temp;   // b = 10     
 
         System.out.println("After swapping: a = "+a+ ", b = "+b);
 
