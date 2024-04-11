@@ -8,9 +8,9 @@ public class SwapTwoNumbers3 {
 
         System.out.println("Before swapping: a = "+a+ ", b = "+b);
 
-        a = a*b;
-        b = a/b;
-        a = a/b;
+        a = a*b;  // a = 10*20 = 200;
+        b = a/b;  // b = 200/20 = 10; 
+        a = a/b;  // a = 200/10 = 20;
 
         System.out.println("After swapping: a = "+a+ ", b = "+b);
     }
