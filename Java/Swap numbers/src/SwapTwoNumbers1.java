@@ -1,7 +1,7 @@
 public class SwapTwoNumbers1 {
     public static void main(String[] args) {
 
-        //Swapping two variables using a third variable//
+        //Swapping two numbers using a third variable//
 
         int a =10, b = 20, temp;
 
