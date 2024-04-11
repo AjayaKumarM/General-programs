@@ -7,7 +7,7 @@ public class SwapTwoNumbers5 {
 
         System.out.println("Before swapping: a = "+a+ ", b = "+b);
 
-        b = a+b-(a=b);
+        b = a+b-(a=b); // b = 10+20-(20) = 30-20 = 10  a value is previously assigned as 20
 
         // we can also use b = a*b/(a=b) gives same answer
 
